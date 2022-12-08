@@ -1,0 +1,10 @@
+
+POST http://localhost:3003/api/blogs/
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpKQmFuZGFuYSIsImlkIjoiNjMyZTU5NDdmMjhlYTQ4YjdjOTg3ZTU0IiwiaWF0IjoxNjYzOTgyMTE0fQ.lWHMoVJvySfBGys1VDD3qvJQDQ00Cu50Mg0MxMJkJ-c
+
+{
+  "title": "Best API in the world!",
+  "author": "Juan",
+  "url": "hello.com"
+}
